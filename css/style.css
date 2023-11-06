@@ -1,0 +1,386 @@
+.headercontainer {
+    max-width: 1400px;
+    width: 90%;
+    height: 100%;
+    margin: 40px auto;
+}
+.maincontainer{
+    max-width: 1400px;
+    width: 70%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+.flex{
+    display: flex;
+    /* top: 0; */
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header styles start here! */
+.navigationstyles a{
+    margin-left: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color:  black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.navigationstyles a:hover{
+    color: darkgray;
+}
+.getInTouch{
+    width: 180px;
+    padding: 18px;
+    text-transform: uppercase;
+    border: 1px solid #131313;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.getInTouch:hover{
+    background: #131313;
+    color: #fff;
+    transition: 0.5s;
+    border: 1px solid #131313;
+    cursor: pointer;
+}
+        /* header styles ends here! */
+
+    	/* preview styles starts here  */
+
+.previewbg-img{
+    background-image: url(../images/x1.png.pagespeed.ic.p0hcED--Qy.webp);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.previewvimgcover{
+    height: 100%;
+    width: 100%;
+    background-color: #00000026;
+}
+
+.previewbg-img h3{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+
+}
+.previewbg-img p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom:55px ;
+    margin-top: 20px ;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.previewbgwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.previewbg-img button{
+    width: 240px;
+    font-size: 14px;
+    padding: 18px 24px;
+    color: #fff;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #fff;
+    font-weight: 400;
+}
+.previewbg-img button:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* preview styles ends here  */
+
+
+/* third part starts */
+
+.experiencebgimg{
+    background-image: url(../images/towerimg.webp);
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.experiencetext{
+    /* width: 200px;
+    height: 150px; */
+    background-color: #fff;
+    padding: 35px 30px;
+}
+.experiencetext h2{
+    font-size: 70px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+
+}
+
+.experiencetext h3{
+        
+    padding-top: 8%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: gray;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.thirdblock{
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.aboutflex{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.aboutUsStyle{
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 8%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.aboutusblock h2{
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 13%;
+    font-family: 'Roboto Slab', serif;
+
+}
+.divider{
+    width: 90px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 35px;
+}
+.aboutUsP{
+    color: gray;
+    line-height: 20px;
+    margin-bottom: 13%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.aboutUl li{
+    font-size: 14px;
+    line-height: 28px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.aboutUsButton{
+    margin-top: 13%;
+    /* width: 240px; */
+    font-size: 13px;
+    padding: 18px 44px;
+    color:black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid black;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.aboutUsButton:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.aboutUlLi::before{
+    content: "";
+    background-color: #02c856;
+    border-radius: 50%;
+    padding-right: 17px;
+    margin-right: 15px;
+
+}
+/* third part starts */
+
+/* make your dream starts here! */
+
+.aboutSpan{
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 3%;
+    margin-top: 15%;
+    font-family: 'Playfair Display', serif;
+}
+.makeYourDream{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 58px;
+    font-family: 'Roboto', sans-serif;
+}
+.makeYourDreamFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.threedreamblock{
+    margin-top: 5%;
+    /* background-color: green; */
+}
+.imgStyles{
+    margin-left: 15%;
+}
+.firstDreamBlock h4{
+    color: #131313;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.firstDreamBlock p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #808080;
+    margin-left: 3%;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.dreamBlock{
+    margin-bottom: 14%;
+}
+
+/* make your dream ends here! */
+
+/* latest project block starts here! */
+
+
+.latestProj{
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 3%;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+}
+.aboutUsStyles{
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.abahoniBuilding{
+    /* background-color: red; */
+    margin-bottom: 10%;
+}
+
+/* .txtWrapper{
+    background-color: #02c856;
+} */
+.aboutflexProject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+}
+.txtWrapper p{
+    width: 380px;
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+    margin-bottom: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.abahoniImg{
+    width: 400px;
+    height: 300px;
+}
+.txtWrapper h5{
+    color: gray;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 22px;
+    font-weight: bolder;
+}
+.txtWrapper h4{
+    color: #131313;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 23px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+.viewMore{
+    background-color: #fff;
+    color: black;
+    padding: 16px 40px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid black;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+
+}
+.viewMore:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.kholifaImg{
+    width: 330px;
+    height: 100%;
+}
+
+/* latest project block ends here! */
+
+/* mithila block starts here! */
+
+
+
+
+/* mithila block ends here! */
